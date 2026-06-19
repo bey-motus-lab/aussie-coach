@@ -9,7 +9,7 @@ st.set_page_config(page_title="Aussie AI Coach", layout="wide")
 
 # Setup Gemini (Uses Streamlit Secrets)
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-model = genai.GenerativeModel('gemini-2.5-pro')
+model = genai.GenerativeModel('gemini-3.5-flash')
 
 # --- VOICE CONFIG ---
 # Natasha is a great native Australian voice

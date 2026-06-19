@@ -1,0 +1,4 @@
+streamlit
+huggingface_hub
+git+https://github.com/myshell-ai/MeloTTS.git
+unidic
